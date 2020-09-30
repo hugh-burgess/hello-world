@@ -48,6 +48,7 @@ h1 {
       font-family: Arial;
       padding: 10px;
 flex-direction: column;
+align-items: stretch;
     }
 h2 {
   font-size: 30px;
