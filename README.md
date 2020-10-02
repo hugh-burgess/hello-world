@@ -100,6 +100,27 @@ li {
   width: 20%;
 }
 
+#box-container {
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    flex-direction:row;
+
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    height: 30px;
+    width: 600px;
+  }
+
+  #box-2 {
+  background-color: orangered;
+
+    height: 30px;
+    width: 600px;
+  }
+
+
 </style>
 </head>
 <body>
@@ -143,6 +164,12 @@ alt="A picture.">
  <br>
 
 </form>
+
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
 
 
 </main>
