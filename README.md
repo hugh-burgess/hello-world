@@ -21,7 +21,7 @@ Cheers
   animation-name: slidein;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
-  flex-direction: column;
+  flex-direction: row;
 } 
 @keyframes slidein {
   from {
