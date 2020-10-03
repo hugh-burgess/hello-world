@@ -1,11 +1,7 @@
 # hello-world
 Just another repository
 
-Hello everyone,
-I'm new here and would love to understand GitHub and all it's benifits.
-I'm going to build a small website here only as an example to show my progress as I learn how to code.
-
-Cheers
+This is the the current project I'm working on. 
 
 
 <!<!DOCTYPE html>
@@ -22,7 +18,11 @@ Cheers
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   flex-direction: row;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8c55574bf59b1c07c34fb1f4561217ba6bd276a7
 @keyframes slidein {
   from {
     margin-right: 100%;
