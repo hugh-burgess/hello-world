@@ -1,7 +1,7 @@
 # hello-world
 Just another repository
 
-This is the the current project I'm working on. 
+This is the the current project I'm working on.
 
 
 <!<!DOCTYPE html>
@@ -9,6 +9,8 @@ This is the the current project I'm working on.
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="Website">
+
+
 <style>
 
 
@@ -18,11 +20,8 @@ This is the the current project I'm working on.
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   flex-direction: row;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8c55574bf59b1c07c34fb1f4561217ba6bd276a7
+
 @keyframes slidein {
   from {
     margin-right: 100%;
@@ -58,6 +57,7 @@ flex-direction: column;
 
 p {
   font-size: 30px;
+
 }
 
   .black-border {
@@ -105,6 +105,9 @@ li {
     height: 100px;
     flex-wrap: wrap;
     flex-direction:row;
+    display: grid;
+    grid-template-rows: 60px 60px 60px;
+
 
   }
   #box-1 {
@@ -166,7 +169,7 @@ alt="A picture.">
 </form>
 
 
-<div id="box-container">
+<div class="container" id="box-container">
   <div id="box-1"></div>
   <div id="box-2"></div>
 </div>
