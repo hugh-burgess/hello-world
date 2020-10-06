@@ -31,10 +31,10 @@ This is the the current project I'm working on.
 
 
   #div {
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-name: slidein;
     animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
+    animation-timing-function: cubic-bezier: (.03,.93,.63,.17);
     flex-direction: row;
   }
 
@@ -49,7 +49,6 @@ This is the the current project I'm working on.
 
     }
   }
-
 
 
 
@@ -69,16 +68,18 @@ This is the the current project I'm working on.
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;  
+    width: 30%;
+
 
   }
 
 
 
   h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 10px;
     flex-direction: column;
+    transform: perspective(70em) rotateY(50deg)
   }
 
   p {
@@ -165,7 +166,7 @@ This is the the current project I'm working on.
    <h2>Welcome to the homepage set up by me. If you'd like to leave feedback, you can email me <a href="mailto:email@address.com">here</a>.</h2>
   <div>
 
-  <img id="div" class="black-border center" src="https://cdn.pixabay.com/photo/2020/09/06/22/11/neptune-5550216__340.jpg"
+  <img id="div" class="black-border center swing" src="https://cdn.pixabay.com/photo/2020/09/06/22/11/neptune-5550216__340.jpg"
   alt="A picture of Neptune.">
 
 
