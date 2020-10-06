@@ -13,6 +13,14 @@ This is the the current project I'm working on.
 
 <style>
 
+  body {
+    background-color: #FFFFDD;
+    grid-template-areas: ". header ." ". main ." ". footer .";
+
+
+  }
+
+
   form {
     display: block;
     margin-left: auto;
@@ -22,14 +30,8 @@ This is the the current project I'm working on.
   }
 
 
-  body { grid-template-areas:
-    ". header ."
-    ". main ."
-    ". footer .";
-  }
-
   #div {
-    animation-duration: .5s;
+    animation-duration: 1s;
     animation-name: slidein;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -39,11 +41,11 @@ This is the the current project I'm working on.
   @keyframes slidein {
     from {
     margin-right: 100%;
-    width: 20%;
+    width: 0%;
     }
     to {
-    margin-right: 40%;
-    width: 20%;
+    margin-right: 35%;
+    width: 40%;
 
     }
   }
@@ -156,14 +158,15 @@ This is the the current project I'm working on.
 
 <header>  
   <h1 id="rect">Website Name</h1>
-  <h2>Welcome to the homepage set up by me. If you'd like to leave feedback, you can email me <a href="mailto:email@address.com">here</a>.</h2>
-  <div>
 </header>
 
 <main>
 
-  <img id="div" class="black-border center" src="#"
-  alt="A picture.">
+   <h2>Welcome to the homepage set up by me. If you'd like to leave feedback, you can email me <a href="mailto:email@address.com">here</a>.</h2>
+  <div>
+
+  <img id="div" class="black-border center" src="https://cdn.pixabay.com/photo/2020/09/06/22/11/neptune-5550216__340.jpg"
+  alt="A picture of Neptune.">
 
 
   <h3>Things I Like:</h3>
